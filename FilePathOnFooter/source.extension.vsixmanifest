@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="FilePathOnFooter.ec338ca9-077d-4d05-bcc1-6f1a95d2803e" Version="2.0" Language="en-US" Publisher="Mohamed El-Shawaf" />
+    <Identity Id="FilePathOnFooter.ec338ca9-077d-4d05-bcc1-6f1a95d2803e" Version="3.0" Language="en-US" Publisher="Mohamed El-Shawaf" />
     <DisplayName>FilePathOnFooter</DisplayName>
     <Description>Shows the current document's full file path in the Visual Studio bottom margin.</Description>
   </Metadata>

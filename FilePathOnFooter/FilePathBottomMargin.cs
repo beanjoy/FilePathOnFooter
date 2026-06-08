@@ -1,3 +1,4 @@
+using Microsoft.VisualStudio.PlatformUI;
 using Microsoft.VisualStudio.Text;
 using Microsoft.VisualStudio.Text.Editor;
 using System;
@@ -28,6 +29,9 @@ public sealed class FilePathBottomMargin : IWpfTextViewMargin
             FontSize = 12,
             VerticalAlignment = VerticalAlignment.Center
         };
+
+        _textBox.SetResourceReference(Control.BackgroundProperty, EnvironmentColors.ToolWindowBackgroundBrushKey);
+        _textBox.SetResourceReference(Control.ForegroundProperty, EnvironmentColors.ToolWindowTextBrushKey);
 
         _textBox.PreviewMouseLeftButtonDown += OnPreviewMouseLeftButtonDown;
         _textDocument.FileActionOccurred += OnFileActionOccurred;
